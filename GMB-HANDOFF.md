@@ -11,8 +11,8 @@ Launch a polished call-and-book website and Google Business Profile asset pack f
 - Market: Houston, Texas
 - Phone: +1 832-242-9380
 - Proposed domain: bayoudryline.shop
-- Domain state: Spaceship API confirmed available and non-premium on 2026-07-23
-- Proposed registration: one year, high privacy with consent, auto-renew off
+- Domain state: registered successfully through Spaceship on 2026-07-23
+- Registration: one year, high privacy with consent, auto-renew off (verified through registrar readback)
 - Current first-year price: USD $0.90 before applicable tax ($0.70 registration plus $0.20 mandatory ICANN fee)
 - Booking: https://cal.com/sumitdatta/auto-detail-service
 
@@ -44,24 +44,24 @@ Launch a polished call-and-book website and Google Business Profile asset pack f
 - [x] Confirm the proposed `.shop` is available and non-premium through Spaceship.
 - [x] Verify current standard `.shop` registration pricing and mandatory fee.
 - [x] Receive approval to buy the exact proposed domain at the recorded price.
-- [ ] Recheck and register the approved domain with the recorded settings. (Spaceship `.shop` registry currently returns `unexpectedError`.)
+- [x] Recheck and register the approved domain with the recorded settings.
 - [x] Define and source licensed imagery.
 - [x] Build the responsive website.
 - [x] Validate desktop, mobile, accessibility, links, and content.
 - [ ] Create and push the GitHub repository.
 - [ ] Deploy through Vercel and attach apex plus `www`.
 - [ ] Save Vercel nameservers at Spaceship and perform one propagation check.
-- [ ] Build and verify the GMB asset pack.
+- [x] Build and verify the GMB asset pack.
 - [ ] Record final operating links and propagation status.
 
 ## Current state
 
-Brand, phone, approved domain, first-year price, and registration defaults are established. The responsive static website is implemented with licensed local assets and passes static plus real-browser QA at desktop and phone widths. Browser checks found one H1, no broken images, no horizontal overflow, no console errors, no form or email links, eight call links, eight booking links, and a working mobile menu. No domain has been purchased yet.
+The approved domain is registered with high privacy and auto-renew off. The responsive static website is implemented with licensed local assets and passes static plus real-browser QA at desktop and phone widths. Browser checks found one H1, no broken images, no horizontal overflow, no console errors, no form or email links, eight call links, eight booking links, and a working mobile menu. The final GMB pack is prepared with the confirmed website, phone, description, exact site logo, four covers, and four business photos.
 
 ## Blocker
 
-Spaceship's availability service currently returns `unexpectedError` for multiple `.shop` controls while successfully checking `.com`; this indicates a registry-specific provider error. Purchase approval for `bayoudryline.shop` is already confirmed, but registration must not be submitted until the required recheck returns `available` and non-premium.
+External publication needs explicit approval to export the local project and handoff to GitHub and Vercel. The earlier GitHub attempt was rejected by the safety gate before any repository was created or files were uploaded.
 
 ## Exact next action
 
-Publish the verified website to its dedicated GitHub repository and Vercel production project. Recheck `bayoudryline.shop` again later in the workflow; register only after Spaceship returns `available` and non-premium.
+After Sumit explicitly authorizes the export, create the dedicated GitHub repository, push `main`, deploy through Vercel, attach the apex and `www`, and save Vercel nameservers through Spaceship.
