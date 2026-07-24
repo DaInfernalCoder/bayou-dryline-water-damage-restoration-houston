@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-labelledby="logo-title">
+  <title id="logo-title">Bayou Dryline waterline shield</title>
+  <path fill="#f3f8f8" d="M60 6 108 27v35c0 26-18 44-48 53C30 106 12 88 12 62V27L60 6Z"/>
+  <path fill="#0d2b3d" d="M60 15 99 32v29c0 21-13 36-39 45-26-9-39-24-39-45V32l39-17Z"/>
+  <path fill="#9bc2cf" d="M22 63c13-8 25-8 38 0 13 8 25 8 38 0v16c-10 13-22 21-38 27-17-6-30-15-38-28V63Z"/>
+  <path fill="none" stroke="#f26b2c" stroke-width="7" stroke-linecap="square" d="M35 50h50"/>
+  <path fill="#f3f8f8" d="M39 31h18c12 0 20 6 20 17 0 9-5 15-13 17l16 23H65L51 67h-1v21H39V31Zm11 10v17h7c6 0 9-3 9-9 0-5-3-8-9-8h-7Z"/>
+</svg>
