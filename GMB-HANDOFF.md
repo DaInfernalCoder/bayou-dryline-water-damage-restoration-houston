@@ -10,7 +10,7 @@ Launch a polished call-and-book website and Google Business Profile asset pack f
 - Service: Water damage restoration
 - Market: Houston, Texas
 - Phone: +1 832-242-9380
-- Proposed domain: bayoudryline.shop
+- Domain: bayoudryline.shop
 - Domain state: registered successfully through Spaceship on 2026-07-23
 - Registration: one year, high privacy with consent, auto-renew off (verified through registrar readback)
 - Current first-year price: USD $0.90 before applicable tax ($0.70 registration plus $0.20 mandatory ICANN fee)
@@ -48,20 +48,28 @@ Launch a polished call-and-book website and Google Business Profile asset pack f
 - [x] Define and source licensed imagery.
 - [x] Build the responsive website.
 - [x] Validate desktop, mobile, accessibility, links, and content.
-- [ ] Create and push the GitHub repository.
-- [ ] Deploy through Vercel and attach apex plus `www`.
-- [ ] Save Vercel nameservers at Spaceship and perform one propagation check.
+- [x] Create and push the GitHub repository.
+- [x] Deploy through Vercel and attach apex plus `www`.
+- [x] Save Vercel nameservers at Spaceship and perform one propagation check.
 - [x] Build and verify the GMB asset pack.
-- [ ] Record final operating links and propagation status.
+- [x] Record final operating links and propagation status.
 
 ## Current state
 
-The approved domain is registered with high privacy and auto-renew off. The responsive static website is implemented with licensed local assets and passes static plus real-browser QA at desktop and phone widths. Browser checks found one H1, no broken images, no horizontal overflow, no console errors, no form or email links, eight call links, eight booking links, and a working mobile menu. The final GMB pack is prepared with the confirmed website, phone, description, exact site logo, four covers, and four business photos.
+All non-DNS deliverables are complete. The approved domain is registered with high privacy and auto-renew off. The responsive static website passes static plus real-browser QA at desktop and phone widths: one H1, no broken images, no horizontal overflow, no console errors, no form or email links, eight call links, eight booking links, and a working mobile menu. The public GitHub repository is connected to the Vercel project for push-to-production deployments. Production is `READY`, both custom hosts are attached, the Vercel fallback passes HTTPS/content verification, and Spaceship reads back the two Vercel nameservers. The final GMB pack contains the confirmed website, phone, 702-character description, exact site logo, four 1600×900 covers, and four business photos.
 
 ## Blocker
 
-External publication needs explicit approval to export the local project and handoff to GitHub and Vercel. The earlier GitHub attempt was rejected by the safety gate before any repository was created or files were uploaded.
+Fresh-domain public DNS and HTTPS propagation are pending. The single immediate Vercel snapshot still returned the registry nameservers; no further DNS polling was performed.
 
 ## Exact next action
 
-After Sumit explicitly authorizes the export, create the dedicated GitHub repository, push `main`, deploy through Vercel, attach the apex and `www`, and save Vercel nameservers through Spaceship.
+In a later run, verify the apex and `www` hosts after DNS propagation. Do not repeat the registrar change unless Spaceship no longer reads back the saved Vercel nameservers.
+
+## Operating record
+
+- Custom website: https://bayoudryline.shop
+- Production fallback: https://bayou-dryline-houston.vercel.app
+- GitHub: https://github.com/DaInfernalCoder/bayou-dryline-water-damage-restoration-houston
+- Vercel project: https://vercel.com/dainfernalcoders-projects/bayou-dryline-houston
+- Local folder: `/Users/sumit/Documents/gmb/Bayou Dryline Water Damage Restoration Houston`
