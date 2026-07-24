@@ -14,7 +14,7 @@ Launch a polished call-and-book website and Google Business Profile asset pack f
 - Domain state: registered successfully through Spaceship on 2026-07-23
 - Registration: one year, high privacy with consent, auto-renew off (verified through registrar readback)
 - Current first-year price: USD $0.90 before applicable tax ($0.70 registration plus $0.20 mandatory ICANN fee)
-- Booking: https://cal.com/sumitdatta/auto-detail-service
+- Booking: https://cal.com/sumitdatta/what-time-should-we-come-for-a-free-inspection
 
 ## Decisions and truth constraints
 

@@ -5,7 +5,7 @@ Static local-service website for Bayou Dryline Water Damage Restoration Houston.
 ## Contact paths
 
 - Phone: +1 832-242-9380
-- Booking: https://cal.com/sumitdatta/auto-detail-service
+- Booking: https://cal.com/sumitdatta/what-time-should-we-come-for-a-free-inspection
 
 No public email address or contact form is used.
 
