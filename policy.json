@@ -1,0 +1,58 @@
+{
+  "config": {
+    "cleanUrls": true,
+    "trailingSlash": false,
+    "headers": [
+      {
+        "source": "/(.*)",
+        "headers": [
+          {
+            "key": "X-Content-Type-Options",
+            "value": "nosniff"
+          },
+          {
+            "key": "Referrer-Policy",
+            "value": "strict-origin-when-cross-origin"
+          },
+          {
+            "key": "Permissions-Policy",
+            "value": "camera=(), microphone=(), geolocation=()"
+          }
+        ]
+      }
+    ]
+  },
+  "domains": [
+    {
+      "name": "www.bayoudryline.shop",
+      "apexName": "bayoudryline.shop",
+      "redirect": null,
+      "redirectStatusCode": null,
+      "verified": true
+    },
+    {
+      "name": "bayoudryline.shop",
+      "apexName": "bayoudryline.shop",
+      "redirect": null,
+      "redirectStatusCode": null,
+      "verified": true
+    }
+  ],
+  "files": [
+    "/assets/logo.svg",
+    "/assets/photos/dripping-faucet.jpg",
+    "/assets/photos/dry-living-room.jpg",
+    "/assets/photos/flooded-home.jpg",
+    "/assets/photos/flooded-room.jpg",
+    "/assets/photos/humidity-meter.jpg",
+    "/assets/photos/leaking-pipe.jpg",
+    "/assets/photos/water-flow.jpg",
+    "/assets/photos/wet-floor.jpg",
+    "/favicon.svg",
+    "/index.html",
+    "/robots.txt",
+    "/script.js",
+    "/sitemap.xml",
+    "/styles.css"
+  ]
+}
