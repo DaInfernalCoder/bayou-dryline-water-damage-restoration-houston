@@ -23,3 +23,4 @@ node_modules
 /logo/bayou-dryline-logo.png
 /scripts/preflight_site.py
 /scripts/check_live.py
+.github
